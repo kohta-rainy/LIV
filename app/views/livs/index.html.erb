@@ -1,0 +1,51 @@
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LIV</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1 class="title">LIV</h1>
+      </div>
+      <div class="navbar">
+        <ul class="nav-lists">
+          <li>LIVって？</li>
+          <li>マイページログイン</li>
+          <li>エリアで探す</li>
+          <li>ジャンルで探す</li>
+        </ul>
+      </div>
+    </header>
+       
+    <div class='picture'>
+     <%= image_tag "bus.jpg", class:"list-pict" %>
+     <%= image_tag "cafe.jpg", class:"list-pict" %>
+     <%= image_tag "ie.jpg", class:"list-pict" %>
+      <div class='headline'>
+       <h1 class="text-of-liv">LIVはあなたの生活に寄り添う情報交換型SNSサービスです</h1>    
+      </div>
+      <p class="liv_is">
+          "あなたが住む街の魅力的な場所を教えてください"
+          <br>
+          "-What are some of the most attractive places in the city where you live?-"
+      </p>
+    </div >
+       
+      <div class="bottom-content">
+        <form class="contact-form">
+          <h2 class="heading-name">お問い合わせ</h2>
+          <input type="text" placeholder="name" class="small-field">
+          <input type="text" placeholder="e-mail" class="small-field">
+          <textarea placeholder="message" class="large-field"></textarea>
+          <input type="submit" value="SEND" class="send">
+        </form>
+      </div>
+
+    </div>
+
+    <footer>
+    </footer>
+  </body>
+</html>
