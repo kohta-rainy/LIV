@@ -130,6 +130,11 @@ li{
 
 
 /* フォーム */
+.heading-name{
+  color:blue;
+  text-align: center;
+}
+
 .bottom-content {
   height: 800px;
   margin: 0 160px;
